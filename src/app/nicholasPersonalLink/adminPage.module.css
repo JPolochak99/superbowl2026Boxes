@@ -1,0 +1,250 @@
+.page {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1b1f2a, #0e1117 60%);
+  color: #e6e8eb;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teamInputs{
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  padding: 1rem;
+}
+
+.teamInput{
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+.teamInput label{
+  font-size: 0.85rem;
+  color: #cbd5f5;
+  font-weight: 600;
+  
+}
+
+/* Wrapper for both header groups */
+.headerInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Each axis group */
+.headerGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.headerBoxes{
+  display: flex;
+  flex-direction: row;
+  gap:.5rem
+
+}
+
+/* Label spans entire row */
+.headerGroup label {
+  font-size: 0.85rem;
+  color: #cbd5f5;
+  font-weight: 600;
+}
+
+/* Inputs */
+.inputName {
+  background: #1e202a;
+  border: 1px solid #2a3040;
+  border-radius: 6px;
+  padding: 2.45rem;
+  text-align: center;
+  color: #f8fafc;
+  font-weight: 500;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.inputHeader {
+  background: #1e202a;
+  border: 1px solid #2a3040;
+  border-radius: 6px;
+
+  /* Make it square */
+  aspect-ratio: 1 / 1;
+  width: 60px; /* base size, can adjust */
+  min-width: 60px;
+  max-width: 100px;
+
+  text-align: center;
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 0.95rem;
+
+  /* Center content vertically (optional) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.inputName:focus, .inputHeader:focus{
+  outline: none;
+  border-color: #ef4444;
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.3);
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 10 columns */
+  grid-template-rows: repeat(10, auto);   /* 10 rows */
+  gap: .1rem;
+  width: 95vw;      /* shrink to fit content */
+  margin: 0 auto 2rem auto; /* center horizontally */
+  overflow: auto;
+}
+
+
+
+.boxCard {
+  background: linear-gradient(145deg, #111827, #0b1020);
+  border: 3px solid #2a3040;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.boxCard.paid {
+  border-color: #16a34a; /* green */
+}
+
+.boxCard.keeping {
+  border-color: #facc15; /* yellow */
+}
+
+.boxCard.nothing {
+  border-color: #ef4444; /* red */
+}
+
+.boxCard:hover {
+  transform: translateY(-3%);
+  border-color: #3b82f6;
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+}
+
+.boxNumber {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.inputName {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.35rem;
+  border: 1px solid #2a3040;
+  background-color: #1b1f2a;
+  color: #f1f5f9;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.inputName::placeholder {
+  color: #6b7280;
+}
+
+.paidLabel {
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.statusSelect {
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.35rem;
+  border: 1px solid #2a3040;
+  background-color: #1b1f2a;
+  color: #f1f5f9;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.statusSelect:hover {
+  border-color: #3b82f6;
+  background-color: #111827;
+}
+
+
+.filterRow{
+  display: flex;
+  flex-direction: column;
+  gap:.5rem;
+  padding: 2rem 0 1rem 0;
+}
+
+.filterButtonContainer{
+  display: flex;
+  gap:.5rem
+}
+
+.filterButton{
+    background-color: #ef4444;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.35rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* status styles */
+.Paid {
+  border: 2px solid #035721;
+  background-color: #035721;
+}
+
+.Keeping {
+  border: 2px solid #0ead00;
+  background-color: #0ead00;
+}
+
+.Nothing {
+  border: 2px solid #6b7280;
+  background-color: #6b7280;
+}
+
+
+
+.submitButton {
+  padding: 0.65rem 1.4rem;
+  background-color: #3b82f6;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.submitButton:hover {
+  background-color: #2563eb;
+  transform: translateY(-2%);
+}

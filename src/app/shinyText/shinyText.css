@@ -1,0 +1,6 @@
+.shiny-text {
+    display: inline-block;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-weight: bolder;
+  }
+  
