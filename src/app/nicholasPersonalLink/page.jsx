@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { supabase } from "../../../lib/supabaseClient";
 import styles from "./adminPage.module.css";
-import ShinyText from '../app/shinyText/shinyText';
 
 export default function AdminPage() {
   // States
@@ -114,18 +113,7 @@ export default function AdminPage() {
 
   return (
     <div className={styles.page}>
-      <ShinyText
-        text="Super Bowl LX Boxes "
-        speed={2}
-        delay={0}
-        color="#b5b5b5"
-        shineColor="#ffffff"
-        spread={120}
-        direction="left"
-        yoyo
-        pauseOnHover={false}
-        disabled={false}
-      />
+      <h1>Super Bowl Boxes Admin</h1>
 
       <form onSubmit={handleSubmit} className={styles.form}>
         {/* Teams */}
