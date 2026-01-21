@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { supabase } from "../../../lib/supabaseClient";
 import styles from "./adminPage.module.css";
+import ShinyText from '../app/shinyText/shinyText';
 
 export default function AdminPage() {
   // States
@@ -44,7 +45,8 @@ export default function AdminPage() {
           columns: headerData?.filter(h => h.axis === "column").map(h => h.value) || Array(10).fill("?"),
         });
       } catch (err) {
-        console.error("Error fetching data:", err);
+        console.error("Error saving changes:", err instanceof Error ? err.message : JSON.stringify(err));
+        alert(`Failed to save changes: ${err instanceof Error ? err.message : JSON.stringify(err)}`);
       } finally {
         setLoading(false);
       }
@@ -76,6 +78,7 @@ export default function AdminPage() {
             id: box.id,
             player_name: box.player_name,
             paid: box.paid,
+            box_number: box.box_number,
           }))
         );
         if (error) throw error;
@@ -111,7 +114,18 @@ export default function AdminPage() {
 
   return (
     <div className={styles.page}>
-      <h1>Super Bowl Boxes Admin</h1>
+      <ShinyText
+        text="Super Bowl LX Boxes "
+        speed={2}
+        delay={0}
+        color="#b5b5b5"
+        shineColor="#ffffff"
+        spread={120}
+        direction="left"
+        yoyo
+        pauseOnHover={false}
+        disabled={false}
+      />
 
       <form onSubmit={handleSubmit} className={styles.form}>
         {/* Teams */}
