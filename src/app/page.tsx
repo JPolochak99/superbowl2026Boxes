@@ -143,11 +143,20 @@ export default function SuperBowlBoxes() {
           </div>
           <div className={styles.panelContent}>
             <ul>
-              <li>Quarter 1 Winner: </li>
-              <li>Quarter 2 Winner: </li>
-              <li>Quarter 3 Winner: </li>
-              <li>Quarter 4 Winner: </li>
-              <li>Grand Prize Winner: </li>
+              <li>Q1 Score:TBD &nbsp; = <span className={styles.prizeAmount}>$700</span></li>
+                <li>+1 to Q1 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Q2 Score: TBD &nbsp; = <span className={styles.prizeAmount}>$1,000</span></li>
+                <li>+1 to Q2 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Box below the Q2 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Box above the Q2 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Q3 Score: TBD &nbsp; = <span className={styles.prizeAmount}>$700</span></li>
+                <li>+1 to Q3 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Final Score: TBD &nbsp; =  <span className={styles.prizeAmount}>$3000</span></li>
+                <li>Box above the final: TBD &nbsp; =  <span className={styles.prizeAmount}>$450</span></li>
+                <li>Box below the final: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>+1 to final score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Add both teams’ final scores: TBD &nbsp; = <span className={styles.prizeAmount}>$500</span></li>
+                <li>Add touchdown to each team: TBD &nbsp; = <span className={styles.prizeAmount}>$500</span></li>
             </ul>
           </div>
         </div>
