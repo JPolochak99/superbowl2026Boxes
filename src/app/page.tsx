@@ -145,10 +145,10 @@ export default function SuperBowlBoxes() {
             <ul>
               <li>Q1 Score: Box #57: Jake/Dylan &nbsp; = <span className={styles.prizeAmount}>$700</span></li>
                 <li>+1 to Q1 score: Box #35: Mikael &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
-                <li>Q2 Score: TBD &nbsp; = <span className={styles.prizeAmount}>$1,000</span></li>
-                <li>+1 to Q2 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
-                <li>Box below the Q2 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
-                <li>Box above the Q2 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Q2 Score: Box #67: Katie Sowinski &nbsp; = <span className={styles.prizeAmount}>$1,000</span></li>
+                <li>+1 to Q2 score: Box #5: James&nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Box below the Q2 score: Box #77: Will C&nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Box above the Q2 score: Box #57: Jake/Dylan&nbsp; = <span className={styles.prizeAmount}>$450</span></li>
                 <li>Q3 Score: TBD &nbsp; = <span className={styles.prizeAmount}>$700</span></li>
                 <li>+1 to Q3 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
                 <li>Final Score: TBD &nbsp; =  <span className={styles.prizeAmount}>$3000</span></li>
