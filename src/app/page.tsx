@@ -149,14 +149,14 @@ export default function SuperBowlBoxes() {
                 <li>+1 to Q2 score: Box #5: James&nbsp; = <span className={styles.prizeAmount}>$450</span></li>
                 <li>Box below the Q2 score: Box #77: Will C&nbsp; = <span className={styles.prizeAmount}>$450</span></li>
                 <li>Box above the Q2 score: Box #57: Jake/Dylan&nbsp; = <span className={styles.prizeAmount}>$450</span></li>
-                <li>Q3 Score: TBD &nbsp; = <span className={styles.prizeAmount}>$700</span></li>
-                <li>+1 to Q3 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
-                <li>Final Score: TBD &nbsp; =  <span className={styles.prizeAmount}>$3000</span></li>
-                <li>Box above the final: TBD &nbsp; =  <span className={styles.prizeAmount}>$450</span></li>
-                <li>Box below the final: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
-                <li>+1 to final score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
-                <li>Add both teams’ final scores: TBD &nbsp; = <span className={styles.prizeAmount}>$500</span></li>
-                <li>Add touchdown to each team: TBD &nbsp; = <span className={styles.prizeAmount}>$500</span></li>
+                <li>Q3 Score: Box #87 Venessa &nbsp; = <span className={styles.prizeAmount}>$700</span></li>
+                <li>+1 to Q3 score: Box #55 Marissa/Nick &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Final Score: Box #9 Zach Morales =  <span className={styles.prizeAmount}>$3000</span></li>
+                <li>Box above the final: Box #51 Karen&nbsp; =  <span className={styles.prizeAmount}>$450</span></li>
+                <li>Box below the final: Box #71 KAAG&nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>+1 to final score: Box #8 Noelle & Cal&nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+                <li>Add both teams’ final scores: Box #88 Kim &nbsp; = <span className={styles.prizeAmount}>$500</span></li>
+                <li>Add touchdown to each team: Box #Zach & Scott &nbsp; = <span className={styles.prizeAmount}>$500</span></li>
             </ul>
           </div>
         </div>
