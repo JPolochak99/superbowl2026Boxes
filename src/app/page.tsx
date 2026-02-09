@@ -143,8 +143,8 @@ export default function SuperBowlBoxes() {
           </div>
           <div className={styles.panelContent}>
             <ul>
-              <li>Q1 Score:TBD &nbsp; = <span className={styles.prizeAmount}>$700</span></li>
-                <li>+1 to Q1 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
+              <li>Q1 Score: Box #57: Jake/Dylan &nbsp; = <span className={styles.prizeAmount}>$700</span></li>
+                <li>+1 to Q1 score: Box #35: Mikael &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
                 <li>Q2 Score: TBD &nbsp; = <span className={styles.prizeAmount}>$1,000</span></li>
                 <li>+1 to Q2 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
                 <li>Box below the Q2 score: TBD &nbsp; = <span className={styles.prizeAmount}>$450</span></li>
